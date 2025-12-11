@@ -20,6 +20,8 @@ The CUDEM+IVERT software is housed in two code repositories that work closely to
 
 ## Get Involved
 
+Fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLScK46myKuESCu81U9zdKha8NXqHny86MZinutPvvTLoGAsDVQ/viewform)
+
 ## Code
 
 ### Links
