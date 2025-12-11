@@ -6,6 +6,12 @@ title: "CUDEM/IVERT: AGU Annual Meeting 2025"
 [American Geophysical Union (AGU) 2025 Annual Meeting](https://www.agu.org/annual-meeting)!
 
 # CUDEM+IVERT: An Open-Source Framework for Rapid Development and Validation of High-Accuracy Digital Elevation Models
+
+* Session Number & Title: IN42D: Cross-Disciplinary Approaches to Science Data Systems Designs and Implementations II Oral
+* Date & Time: Thursday, 18 December 2025, 10:30 – 12:00 CST
+* Presentation Length*: 11:45 – 12:00 CST
+* Location: New Orleans Convention Center, 293
+
 ## Abstract
 
 
