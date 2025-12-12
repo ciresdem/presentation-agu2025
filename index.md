@@ -15,6 +15,7 @@ title: "CUDEM/IVERT: AGU Annual Meeting 2025"
 ## Get Involved
 
 Fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLScK46myKuESCu81U9zdKha8NXqHny86MZinutPvvTLoGAsDVQ/viewform)
+Join our [Zulip Channel](https://cudem.zulipchat.com/)
 
 ## Abstract
 
