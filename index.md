@@ -30,4 +30,22 @@ The CUDEM+IVERT software is housed in two code repositories that work closely to
 - [CUDEM](https://github.com/ciresdem/cudem)
 - [IVERT](https://github.com/ciresdem/ivert)
 
-### Examples
+### Get Started
+
+Interested in getting started building your first high-resolution DEM of New Orleans? First, install the CUDEM software [link to CUDEM install README].
+ 
+Then download this datalist text file [CRM.datalist](/data/CRM.datalist), put it in a working directory. Open it up and take a look, it tells CUDEM to get data from these various sources, and weights the datasets in order of priority for building it into a DEM. (You can run "fetches --modules" to see all supported CUDEM dataset modules, this is just a few!) Run this "waffles" command, it'll automatically download the datasets needed from that datalist for the New Orleans area, and from that data will generate a brand-new DEM at 1/9-arc-second (~3 m) resolution.
+
+```bash
+waffles -R -90.1/-90/29.9/30 -E .111111111s -P epsg:4269+5703 -A mixed -w -m -O nola -M cudem:pre_verbose=True:landmask=True:pre_mode=IDW -k CRM.datalist
+```
+ 
+If you want to visualize that DEM, use CUDEM's "perspecto" module to create a color-coded hillshade:
+
+```bash
+perspecto -M hillshade nola.tif
+```
+
+![](/media/nola_hillshade.png)
+ 
+If you'd like to learn more, check out more in-depth CUDEM Github tutorials and the various modules available. Feel free to ask questions in our [Zulip chat space](https://cudem.zulipchat.com/)! And/or, fill out this [Google form](https://docs.google.com/forms/d/e/1FAIpQLScK46myKuESCu81U9zdKha8NXqHny86MZinutPvvTLoGAsDVQ/viewform) so the DEM team can get in touch with you.
