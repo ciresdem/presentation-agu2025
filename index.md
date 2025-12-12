@@ -7,16 +7,15 @@ title: "CUDEM/IVERT: AGU Annual Meeting 2025"
 
 # CUDEM+IVERT: An Open-Source Framework for Rapid Development and Validation of High-Accuracy Digital Elevation Models
 
-* Session Number & Title: IN42D: Cross-Disciplinary Approaches to Science Data Systems Designs and Implementations II Oral
-* Date & Time: Thursday, 18 December 2025, 10:30 – 12:00 CST
-* Presentation Length*: 11:45 – 12:00 CST
-* Location: New Orleans Convention Center, 293
+- Session Number & Title: IN42D: Cross-Disciplinary Approaches to Science Data Systems Designs and Implementations II Oral
+- Date & Time: Thursday, 18 December 2025, 10:30 – 12:00 CST
+- Presentation Length: 11:45 – 12:00 CST
+- Location: New Orleans Convention Center, 293
 
 ## Get Involved
 
-Fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLScK46myKuESCu81U9zdKha8NXqHny86MZinutPvvTLoGAsDVQ/viewform)
-
-Join our [Zulip Channel](https://cudem.zulipchat.com/)
+- Fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLScK46myKuESCu81U9zdKha8NXqHny86MZinutPvvTLoGAsDVQ/viewform)
+- Join our [Zulip Channel](https://cudem.zulipchat.com/)
 
 ## Abstract
 
