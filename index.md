@@ -41,7 +41,7 @@ Then download this datalist text file [CRM.datalist](/data/CRM.datalist) and put
 Next, run this "waffles" command, it'll automatically download the datasets needed from that datalist for the New Orleans area, and from that data will generate a brand-new DEM at 1/9-arc-second (~3 m) resolution.
 
 ```bash
-waffles -R -90.1/-90/29.9/30 -E .111111111s -P epsg:4269+5703 -A mixed -O nola -M cudem -w -m CRM.datalist
+waffles -R-90.1/-90/29.9/30 -E.111111111s -Pepsg:4269+5703 -Amixed -Onola -Mcudem -w -m CRM.datalist
 ```
  
 If you want to visualize that DEM, use CUDEM's "perspecto" module to create a color-coded hillshade:
