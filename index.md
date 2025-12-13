@@ -43,11 +43,13 @@ Next, run this "waffles" command (running ‘waffles —help’ will give a brie
 ```bash
 waffles -R-90.1/-90/29.9/30 -E.111111111s -Pepsg:4269+5703 -Amixed -Onola -Mcudem -w -m CRM.datalist
 ```
- 
+
+This will output a DEM file named 'nola.tif'. All the downloaded data will be retained in their respective directories and will be re-used in subsequent iterations of DEM using the same region and datalst.
+
 If you want to visualize that DEM, use CUDEM's "perspecto" hillshade module to create a color-coded hillshade (as with our other cli tools "perspecto --help" will give a brief description of its options):
 
 ```bash
-perspecto -M hillshade nola.tif
+perspecto -Mhillshade nola.tif
 ```
 
 ![](/media/nola_hillshade.png)
