@@ -44,7 +44,7 @@ Next, run this "waffles" command (running ‘waffles —help’ will give a brie
 waffles -R-90.1/-90/29.9/30 -E.111111111s -Pepsg:4269+5703 -Amixed -Onola -Mcudem -w -m CRM.datalist
 ```
  
-If you want to visualize that DEM, use CUDEM's "perspecto" module to create a color-coded hillshade:
+If you want to visualize that DEM, use CUDEM's "perspecto" hillshade module to create a color-coded hillshade (as with our other cli tools "perspecto --help" will give a brief description of its options):
 
 ```bash
 perspecto -M hillshade nola.tif
