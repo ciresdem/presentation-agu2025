@@ -34,9 +34,9 @@ The CUDEM+IVERT software is housed in two code repositories that work closely to
 
 Interested in getting started building your first high-resolution DEM of New Orleans?
 
-First, [install the CUDEM software](https://github.com/ciresdem/cudem?tab=readme-ov-file#installation-and-setup)
+First, [install the CUDEM software](https://github.com/ciresdem/cudem?tab=readme-ov-file#installation-and-setup).
  
-Then download this datalist text file [CRM.datalist](/data/CRM.datalist), put it in a working directory. Open it up and take a look, it tells CUDEM to get data from these various sources, and weights the datasets in order of priority for building it into a DEM (You can run "fetches --modules" to see all supported CUDEM dataset modules, this is just a few!).
+Then download this datalist text file [CRM.datalist](/data/CRM.datalist) and put it in a working directory. Open it up and take a look, it tells CUDEM to get data from these various sources, and weights the datasets in order of priority for building it into a DEM (You can run "fetches --modules" to see all supported CUDEM dataset modules, this is just a few!).
 
 Next, run this "waffles" command, it'll automatically download the datasets needed from that datalist for the New Orleans area, and from that data will generate a brand-new DEM at 1/9-arc-second (~3 m) resolution.
 
